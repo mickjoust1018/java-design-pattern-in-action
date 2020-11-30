@@ -31,6 +31,9 @@
 
         </plugins>
     </build>
+    <modules>
+        <module>jdp-in-action-dip</module>
+    </modules>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
