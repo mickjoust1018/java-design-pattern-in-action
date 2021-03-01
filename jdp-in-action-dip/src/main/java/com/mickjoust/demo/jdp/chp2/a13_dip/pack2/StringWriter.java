@@ -1,4 +1,4 @@
-package com.mickjoust.demo.jdp.dip.pack1;
+package com.mickjoust.demo.jdp.chp2.a13_dip.pack2;
 
 /**
  * @author mickjoust

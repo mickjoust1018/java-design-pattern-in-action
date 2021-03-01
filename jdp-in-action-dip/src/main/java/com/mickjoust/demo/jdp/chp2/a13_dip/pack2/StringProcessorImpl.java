@@ -1,4 +1,5 @@
-package com.mickjoust.demo.jdp.dip.pack3;
+package com.mickjoust.demo.jdp.chp2.a13_dip.pack2;
+
 
 
 /**
@@ -11,10 +12,10 @@ public class StringProcessorImpl implements StringProcessor {
         stringWriter.write(stringReader.getValue());
     }
 
-    public static void main(String[] args) {
-        StringReader sr = new StringReaderImpl();
-        sr.read("333333");
-        StringWriter sw = new StringWriterImpl();
+    public static void main(String[] args){
+        StringReader sr = new StringReader();
+        sr.read("222222");
+        StringWriter sw = new StringWriter();
         StringProcessor sp = new StringProcessorImpl();
         sp.readAndWrite(sr,sw);
     }
