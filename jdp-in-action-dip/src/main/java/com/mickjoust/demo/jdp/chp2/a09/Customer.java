@@ -18,4 +18,13 @@ public class Customer {
     public Wallet getWallet(){
         return myWallet;
     }
+    public float pay(float bill) {
+        if (myWallet != null) {
+            if (myWallet.getTotalMoney() > bill) {
+                myWallet.subtractMoney(bill);
+                return bill;
+            }
+        }
+        return 0;
+    }
 }
