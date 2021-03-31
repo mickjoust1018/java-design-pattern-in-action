@@ -6,4 +6,7 @@ package com.mickjoust.demo.jdp.chp2.a10_pie;
 public interface Demo2 {
 
     List<UserInfo> getUserList(Long userId);
+
+
+    
 }
