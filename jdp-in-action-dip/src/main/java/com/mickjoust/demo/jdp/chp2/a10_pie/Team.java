@@ -33,8 +33,8 @@ public class Team {
 
     public static void main(String[] args) {
         List<Team> teams = new ArrayList<>();
-        teams.add();
-        teams.add();
+//        teams.add();
+//        teams.add();
 
     }
 }

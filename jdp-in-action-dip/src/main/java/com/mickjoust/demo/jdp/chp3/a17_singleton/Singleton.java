@@ -1,4 +1,4 @@
-package com.mickjoust.demo.jdp.chp3.singleton;
+package com.mickjoust.demo.jdp.chp3.a17_singleton;
 
 /**
  * @author mickjoust

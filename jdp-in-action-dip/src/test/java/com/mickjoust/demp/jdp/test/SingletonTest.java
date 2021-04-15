@@ -1,6 +1,6 @@
 package com.mickjoust.demp.jdp.test;
 
-import com.mickjoust.demo.jdp.chp3.singleton.Singleton;
+import com.mickjoust.demo.jdp.chp3.a17_singleton.Singleton;
 import org.junit.Assert;
 import org.junit.Test;
 
