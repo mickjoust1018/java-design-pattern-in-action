@@ -11,9 +11,6 @@ import java.net.URL;
  **/
 public class Demo {
 
-
-
-    
     public static void main(String[] args) throws IOException {
         //创建连接
         URL url = new URL("http://xxx.test.com/sayHello");
@@ -32,4 +29,5 @@ public class Demo {
         //关闭连接
         connection.disconnect();
     }
+
 }

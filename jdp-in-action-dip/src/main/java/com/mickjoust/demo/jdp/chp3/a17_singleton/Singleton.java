@@ -2,7 +2,7 @@ package com.mickjoust.demo.jdp.chp3.a17_singleton;
 
 /**
  * @author mickjoust
- * xxx
+ * xxxπ
  **/
 public class Singleton {
 
