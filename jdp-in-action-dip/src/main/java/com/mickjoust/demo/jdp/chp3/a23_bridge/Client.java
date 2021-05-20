@@ -4,6 +4,7 @@ package com.mickjoust.demo.jdp.chp3.a23_bridge;
  * @author mickjoust
  **/
 public class Client {
+
     public static void main(String[] args) {
         String os = "linux";
         FileUploader uploader = null;
@@ -22,4 +23,5 @@ public class Client {
         Object fileContent = uploader.upload("/User/hjf/.../path");
         System.out.println(uploader.check(fileContent));
     }
+
 }
