@@ -4,15 +4,12 @@ package com.mickjoust.demo.jdp.chp3.a25_decorator;
  * @author mickjoust
  **/
 public class BaseDecorator implements Component {
-
-    private Component wrappe;
-
-    public BaseDecorator(Component wrappe) {
-        this.wrappe = wrappe;
+    private Component wrapper;
+    public BaseDecorator(Component wrapper) {
+        this.wrapper = wrapper;
     }
-
     @Override
     public void excute() {
-        wrappe.excute();
+        wrapper.excute();
     }
 }
