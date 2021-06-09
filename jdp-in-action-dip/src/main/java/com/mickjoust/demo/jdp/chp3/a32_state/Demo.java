@@ -1,4 +1,4 @@
-package com.mickjoust.demo.jdp.chp3.a32;
+package com.mickjoust.demo.jdp.chp3.a32_state;
 
 /**
  * @author mickjoust
