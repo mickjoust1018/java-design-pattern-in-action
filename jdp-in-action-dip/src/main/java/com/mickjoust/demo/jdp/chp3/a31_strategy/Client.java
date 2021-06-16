@@ -1,23 +1,19 @@
 package com.mickjoust.demo.jdp.chp3.a31_strategy;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 /**
  * @author mickjoust
  */
 public class Client {
-    public static void main(String[] args) throws IOException {
-        Path inFile = Paths.get("/User/hjf/test.txt");
+    public static void main(String[] args) {
+        Promotional fullReducePromotional = new Promotional(new FullReduceStrategy());
+        fullReducePromotional.recommand("1122334455");
 
-        File outFile = new File("testoutfile");
+        Promotional nPriceDiscountPromotional = new Promotional(new NPriceDiscountStrategy());
+        nPriceDiscountPromotional.recommand("6677889900");
 
-        Compressor gzipCompressor = new Compressor(new GzipCompressionStrategy());
-        gzipCompressor.compress(inFile, outFile);
+        Promotional mSpikePromotional = new Promotional(new MSpikeStrategy());
+        mSpikePromotional.recommand("11335577");
 
-        Compressor zipCompressor = new Compressor(new ZipCompressionStrategy());
-        zipCompressor.compress(inFile, outFile);
     }
 }
