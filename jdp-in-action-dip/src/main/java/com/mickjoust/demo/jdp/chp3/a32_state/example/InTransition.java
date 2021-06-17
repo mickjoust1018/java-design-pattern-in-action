@@ -1,7 +1,8 @@
-package com.mickjoust.demo.jdp.chp3.a32_state;
+package com.mickjoust.demo.jdp.chp3.a32_state.example;
 
 /**
  * @author mickjoust
+ * 3 - 运输中
  */
 public class InTransition implements PackageState
 {
@@ -16,8 +17,8 @@ public class InTransition implements PackageState
      
     //Business logic and state transition
     @Override
-    public void updateState(DeliveryContext ctx) {
-        System.out.println("Package is in transition !!");
-        ctx.setCurrentState(OutForDelivery.instance());
+    public void updateState(PackageContext ctx) {
+        System.out.println("3 - Package is in transition !!");
+        ctx.setCurrentState(Delivering.instance());
     }
 }

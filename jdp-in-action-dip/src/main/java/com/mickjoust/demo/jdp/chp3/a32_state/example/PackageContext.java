@@ -1,14 +1,15 @@
-package com.mickjoust.demo.jdp.chp3.a32_state;
+package com.mickjoust.demo.jdp.chp3.a32_state.example;
 
 /**
  * @author mickjoust
+ * 包裹得我上下文信息类
  */
-public class DeliveryContext {
+public class PackageContext {
 
     private PackageState currentState;
     private String packageId;
 
-    public DeliveryContext(PackageState currentState, String packageId) {
+    public PackageContext(PackageState currentState, String packageId) {
         this.currentState = currentState;
         this.packageId = packageId;
         if(currentState == null) {
