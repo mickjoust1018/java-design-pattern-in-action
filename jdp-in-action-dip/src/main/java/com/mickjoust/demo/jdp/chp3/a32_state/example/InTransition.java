@@ -4,8 +4,7 @@ package com.mickjoust.demo.jdp.chp3.a32_state.example;
  * @author mickjoust
  * 3 - 运输中
  */
-public class InTransition implements PackageState
-{
+public class InTransition implements PackageState {
     //Singleton
     private static InTransition instance = new InTransition();
  
