@@ -1,4 +1,4 @@
-package com.mickjoust.demo.jdp.chp3.a34;
+package com.mickjoust.demo.jdp.chp3.a33_observer;
 
 /**
  * @author mickjoust
