@@ -1,4 +1,4 @@
-package com.mickjoust.demo.jdp.chp3.a37;
+package com.mickjoust.demo.jdp.chp3.a36_iterator;
 
 /**
  * @author mickjoust
