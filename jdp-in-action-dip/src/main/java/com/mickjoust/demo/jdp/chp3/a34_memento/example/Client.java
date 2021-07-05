@@ -1,4 +1,4 @@
-package com.mickjoust.demo.jdp.chp3.a34_memento;
+package com.mickjoust.demo.jdp.chp3.a34_memento.example;
 
 /**
  * @author mickjoust

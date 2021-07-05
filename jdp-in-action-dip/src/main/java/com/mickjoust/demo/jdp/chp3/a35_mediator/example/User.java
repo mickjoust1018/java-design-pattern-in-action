@@ -1,4 +1,4 @@
-package com.mickjoust.demo.jdp.chp3.a35;
+package com.mickjoust.demo.jdp.chp3.a35_mediator.example;
 
 /**
  * @author mickjoust

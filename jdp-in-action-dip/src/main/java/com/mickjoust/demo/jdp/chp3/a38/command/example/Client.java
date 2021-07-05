@@ -1,4 +1,6 @@
-package com.mickjoust.demo.jdp.chp3.a38.command;
+package com.mickjoust.demo.jdp.chp3.a38.command.example;
+
+import com.mickjoust.demo.jdp.chp3.a38.command.*;
 
 /**
  * @author mickjoust
