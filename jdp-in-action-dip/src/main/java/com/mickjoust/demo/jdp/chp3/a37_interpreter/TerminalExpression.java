@@ -3,17 +3,17 @@ package com.mickjoust.demo.jdp.chp3.a37_interpreter;
 /**
  * @author mickjoust
  */
-public class TerminalExpression implements Expression{
+public class TerminalExpression implements AbstractExpression {
 
-    String data;
+    private String data;
 
     public TerminalExpression(String data) {
         this.data = data;
     }
 
     @Override
-    public boolean interpreter(String con) {
-        if(con.contains(data)) {
+    public boolean interpreter(Context context) {
+        if(context.getData().contains(data)) {
             return true;
         } else {
             return false;
