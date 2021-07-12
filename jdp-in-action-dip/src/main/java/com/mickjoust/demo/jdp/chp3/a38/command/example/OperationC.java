@@ -1,6 +1,5 @@
 package com.mickjoust.demo.jdp.chp3.a38.command.example;
 
-import com.mickjoust.demo.jdp.chp3.a38.command.Command;
 
 /**
  * @author mickjoust
@@ -14,7 +13,7 @@ public class OperationC implements Command {
     }
 
     @Override
-    public void execute() {
+    public void excute() {
         receiver.operationC();
     }
 }

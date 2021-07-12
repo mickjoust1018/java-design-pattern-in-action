@@ -1,12 +1,10 @@
 package com.mickjoust.demo.jdp.chp3.a38.command;
 
-import com.mickjoust.demo.jdp.chp3.a38.command.*;
 
 /**
  * @author mickjoust
  */
 public class Client {
-
     public static void main(String[] args) {
         Html5Editor html5Editor = new Html5Editor();
         MarkDownEditor markDownEditor = new MarkDownEditor();

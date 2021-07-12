@@ -9,9 +9,9 @@ public class Demo {
         Receiver receiver1 = new Receiver1();
 
         Invoker invoker = new Invoker();
-        invoker.setCommand(new Command1(receiver1));
-        invoker.setCommand(new Command2(receiver1));
         invoker.setCommand(new OperationA(receiver1));
+        invoker.setCommand(new OperationB(receiver1));
+        invoker.setCommand(new OperationC(receiver1));
 
         invoker.run();
     }
